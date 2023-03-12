@@ -8,7 +8,7 @@ class Logger {
   const Logger({LogFormatter formatter = const LogFormatter.defaultFormatter()})
       : _formatter = formatter;
 
-  void log(LogMessage message) {
-    dev.log(_formatter.format(message), name: message.level.name);
+  void log(LogMessage message, {String? name}) {
+    dev.log(_formatter.format(message), name: name ?? message.level.name);
   }
 }

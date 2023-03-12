@@ -1,10 +1,10 @@
 name: logger
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
+description: Simple logger for Dart/Flutter
+version: 1.0.1
 # repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: '>=2.19.4 <3.0.0'
+  sdk: ">=2.19.4 <3.0.0"
 
 # dependencies:
 #   path: ^1.8.0
