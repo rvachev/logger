@@ -9,4 +9,6 @@ void main() {
   }
   Log.i('Info message');
   Log.w('Warning message');
+
+  loggerMessages.listen(print);
 }
