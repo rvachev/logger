@@ -1,4 +1,4 @@
-import 'package:effectve_logger/logger.dart';
+import 'package:effective_logger/logger.dart';
 
 void main() {
   Log.d('Debug message with custom name', name: 'Example');
