@@ -1,7 +1,7 @@
-name: logger
+name: effectve_logger
 description: Simple logger for Dart/Flutter
 version: 1.0.3
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/rvachev/logger
 
 environment:
   sdk: ">=2.19.4 <3.0.0"

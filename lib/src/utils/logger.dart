@@ -1,8 +1,9 @@
 import 'dart:async';
 
-import 'package:logger/src/formatter/log_formatter.dart';
-import 'package:logger/src/models/log_message.dart';
 import 'dart:developer' as dev;
+
+import '../../logger.dart';
+import '../formatter/log_formatter.dart';
 
 class Logger {
   final LogFormatter _formatter;

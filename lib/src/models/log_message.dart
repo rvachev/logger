@@ -1,4 +1,4 @@
-import 'package:logger/src/models/log_level.dart';
+import '../../logger.dart';
 
 class LogMessage {
   final Object message;

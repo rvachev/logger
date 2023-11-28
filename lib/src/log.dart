@@ -1,6 +1,5 @@
-import 'package:logger/src/models/log_level.dart';
-import 'package:logger/src/models/log_message.dart';
-import 'package:logger/src/utils/logger.dart';
+import '../logger.dart';
+import 'utils/logger.dart';
 
 final _logger = Logger();
 

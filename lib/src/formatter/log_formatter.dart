@@ -1,4 +1,4 @@
-import 'package:logger/src/models/log_message.dart';
+import '../../logger.dart';
 
 abstract class LogFormatter {
   const LogFormatter();
